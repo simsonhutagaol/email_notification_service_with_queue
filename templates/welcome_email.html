@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+        .footer {
+            font-size: 12px;
+            text-align: center;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <h1>Welcome to Our Service, {{.Name}}!</h1>
+        <p>Thank you for registering with us. We are excited to have you on board!</p>
+        <p>If you have any questions, feel free to reach out to our support team.</p>
+        <p>Best regards,<br>The Service Team</p>
+        <div class="footer">
+            <p>&copy; 2024 Our Service. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
